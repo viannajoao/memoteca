@@ -50,6 +50,8 @@ export class CriarPensamentoComponent implements OnInit {
 
 
   habilitarBotao(): string{
+    console.log(this.formulario)
+    console.log(this.formulario.valid)
     if(this.formulario.valid){
       return 'botao'
   }
